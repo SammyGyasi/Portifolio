@@ -426,10 +426,15 @@ form .btn2
 
 }
 
+nav .fas,nav .fab
+{
+    display: none;
+}
+
 
 /*Responsiveness*/
 
-@media only screen and (max-width: 768px)
+@media only screen and (max-width: 765px)
 {
   #header
   {
@@ -442,5 +447,35 @@ form .btn2
   }
 
   .header-text h1 {font-size: 30px;}
+  
+nav .fas,nav .fab
+{
+    display: block;
+    font-size: 25px;
+}
+nav ul
+{
+    background: #ff004f;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+
+}
+nav ul li
+{
+    display: block;
+    margin: 25px;
+}
+nav ul .fas,nav ul .fab
+{
+    position: absolute;
+    top: 25px;
+    left:25px;
+    cursor: pointer;
+}
 }
     

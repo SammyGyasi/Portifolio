@@ -14,6 +14,16 @@ function openTab(tabname) {
     document.getElementById(tabname).classList.add("active-tab")
 }
 
+var sideMenu = document.getElementById("sideMenu")
+
+function openmenu() {
+    sideMenu.style.right = "0"
+}
+
+function closemenu() {
+    sideMenu.style.right = "-200"
+}
+
 
 var layer = document.getElementsByClassName("layer")
 layer.addEventListener("mouseover", function (e) { layer.style.height = '100%'; }, false)
