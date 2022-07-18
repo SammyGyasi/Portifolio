@@ -83,9 +83,21 @@ nav ul li a:hover::after
     margin-top: 10px;
     font-size: 70px;
     font-weight: 900;
+    line-height:95%;
 }
 
 .header-text h1 span
+{
+    color: #ff004f;
+}
+
+.quote
+{
+    font-size: 1rem;
+    padding: 5px 0;
+}
+
+.quote span
 {
     color: #ff004f;
 }
