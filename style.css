@@ -18,7 +18,7 @@ body
 {
     width: 100%;
     height: 100vh;
-    background-image: url(/images/backport.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(/images/backport.png);
     background-size: cover;
     background-position:center ;
 
@@ -90,7 +90,7 @@ nav ul li a:hover::after
     color: #ff004f;
 }
 
-/*------------about me-------------*/
+/*------------About me Section-------------*/
 
 #about
 {
@@ -183,11 +183,149 @@ nav ul li a:hover::after
     display: block;
 }
 
+/*Services Section*/
 
-
-@media only screen and  (max-width: 768px)
-{
-
-
+#services {
+    padding: 30px 0;
 }
+
+.services-list
+{
+     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    margin-top: 50px;
+    font-size: 0.8rem;
+}
+
+.services-list div{
+    background: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s,transform 0.5s;
+}
+
+.services-list div i
+{
+    font-size: 50px;
+    margin-bottom: 3opx;
+}
+
+.services-list div h2
+{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.services-list div a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top:20px;
+    display: inline-block;
+}
+
+.services-list div:hover
+{
+    background: #ff004f;
+    transform: translateY(-10px);
+}
+
+/*----Portifolio Section------*/
+
+
+.work img
+{
+    width: 350px;
+    height: 390px;
+    border-radius: 15px;
+    display: block;
+    transform: transform 0.5s;
+}
+
+.work-list
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    margin-top: 50px;
+    font-size: 0.8rem;  
+}
+
+.work
+{
+    border-radius: 10px;
+    position: relative;
+    overflow:hidden;
+}
+
+.layer
+{
+    width: 100%;
+    /*height: 100%;----to manupuate it down)*/
+    height: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),#ff004f);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 40px;
+    font-size: 0.8rem;
+    transition: height 0.5s;
+}
+
+.layer h3
+{
+    font-weight:500 ;
+    margin-bottom: 20px;
+}
+.layer a
+{
+    margin-top: 20px;
+    color: #ff004f;
+    text-decoration: none;
+    line-height: 60px;
+    background: #fff;
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    text-align: center;
     
+}
+
+.work:hover img
+{
+    transform: scale(1.2);
+}
+
+.work:hover .layer
+{
+    height: 100%;
+}
+.btn
+{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    border-radius: 6px;
+    padding: 14px 50px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn:hover
+{
+    background: #ff004f;
+}
