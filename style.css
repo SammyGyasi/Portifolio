@@ -448,7 +448,13 @@ nav .fas,nav .fab
 
   .header-text h1 {font-size: 30px;}
   
-nav .fas,nav .fab
+nav .fas
+{
+    display: block;
+    font-size: 25px;
+}
+
+nav .fab
 {
     display: block;
     font-size: 25px;
@@ -470,7 +476,15 @@ nav ul li
     display: block;
     margin: 25px;
 }
-nav ul .fas,nav ul .fab
+nav ul .fas
+{
+    position: absolute;
+    top: 25px;
+    left:25px;
+    cursor: pointer;
+}
+
+nav ul .fab
 {
     position: absolute;
     top: 25px;
