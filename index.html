@@ -1,0 +1,112 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sam's Portifolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img
+            src="/assets/logoTransparent.png"
+            alt="logo"
+            width="160px"
+            height="120px"
+            class="logo"
+          />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portifolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-text">
+          <p>JUNIOR Front-end Developer</p>
+          <h1>
+            Hi, I'm <span>Samuel</span> <br />
+            K.Gyasi from Ghana.
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-------------about me------------->
+    <div id="about">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="/assets/user.png" alt="" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="subtitle">About Me</h1>
+          <p>
+            I'm a second year computer science student currently undergoing my
+            undergraduate studies in Sup'Management ,Fes Morocco. I'm very
+            passionate about web development,data analysis and digital literarcy
+            in general.I either code or read in my free times.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="openTab('skills')">
+              Skills
+            </p>
+            <p class="tab-links" onclick="openTab('experience')">Experience</p>
+            <p class="tab-links" onclick="openTab('education')">Education</p>
+          </div>
+
+          <!--Skills-->
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li>
+                <span>Web development</span><br />Designing Web interfaces
+              </li>
+              <li>
+                <span>Photo Processing</span><br />Making flyers and logos with
+                adobe products
+              </li>
+              <li>
+                <span>Data Analysis</span><br />Analysis of data and building of
+                interactive dashboards
+              </li>
+            </ul>
+          </div>
+
+          <!--Experience-->
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2017-2018</span><br />Employee Cash Washing Bay</li>
+              <li>
+                <span>2018-2019</span><br />Electrician Assistant at Deacon
+                Electricals
+              </li>
+              <li>
+                <span>2021</span><br />Intern at Computer Science Department
+                Sup'Management ,Fes
+              </li>
+            </ul>
+          </div>
+
+          <!--Education-->
+          <div class="tab-contents" id="education">
+            <ul>
+              <li>
+                <span>2014-2017</span><br />Saint John's School,Sekondi-Takoradi
+                <br />
+                Ghana
+              </li>
+              <li>
+                <span>2020-presEnt</span><br />Ecole Sup'Management,Fes <br />
+                Morocco
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
