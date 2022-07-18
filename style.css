@@ -341,3 +341,20 @@ nav ul li a:hover::after
 {
     background: #ff004f;
 }
+
+#contact .row{
+    display: flex;
+}
+
+/*---------Contact Form------------------------------*/
+.contact-colleft {
+    flex-basis: 40%;
+}
+
+.contact-colright {
+    flex-basis: 55%;
+}
+.contact-colleft p
+{
+    margin-top: 30px;
+}

@@ -215,12 +215,12 @@
 
     <!---Contact-->
     <div id="contact">
-      <div class="container">
+       <!---<div class="container"--->
         <div class="row">
           <div class="contact-colleft">
             <h1 class="subtitle">Contact me</h1>
-            <p>gyasisamuelkobina22@gmail.com</p>
-            <p>(+212) 68 489 3821</p>
+            <p><i class="fa fa-envelope"></i> gyasisamuelkobina22@gmail.com</p>
+            <p><i class="fas fa-phone-volume"></i> (+212) 68 489 3821</p>
             <div class="social-icon">
               <a href="https://www.facebook.com/samuel.kobinagyasi"
                 ><i class="fab fa-facebook"></i
@@ -245,12 +245,14 @@
                 placeholder="Your email address"
                 required
               />>
-              <input
-                type="text"
+              <textarea
                 name="Message"
-                placeholder="Enter your message"
-                required
-              />
+                id="textarea"
+                placeholder="Your message "
+                cols="30"
+                rows="10"
+              ></textarea>
+              <button type="submit">Submit</button>
             </form>
           </div>
         </div>
