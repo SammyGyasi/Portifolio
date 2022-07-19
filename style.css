@@ -19,6 +19,7 @@ body
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(/images/backport.png);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position:center ;
 
@@ -436,10 +437,11 @@ nav .fas,nav .fab
 
 @media only screen and (max-width: 600px) 
 {
-  /*#header
+  #header
   {
     background-image: url(/images/blackport-small.png);
-  }*/
+    background-repeat: no-repeat;
+  }
   .header-text
   {
     margin-top: 100%;
@@ -503,6 +505,19 @@ nav ul .fas,nav ul .fab
 .tab-links
 {
     font-size: 16px;
+    margin-right: 20px;
+}
+
+.services-list,  .work-list
+{
+   display: flex;
+   flex-direction: column;
+}
+
+
+.contact-colleft, .contact-colright
+{
+    flex-basis: 100%;
 }
 }
     
