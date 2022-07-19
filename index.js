@@ -43,10 +43,11 @@ form.addEventListener('submit', e => {
 })
 
 
-/*Typing Effect*/
+/*Typing Effect for I'm Samuel*/
 
-var typed = new Typed('.auto-typing', {
-    strings: ["SAMUEL"],
+
+var typed = new Typed('.auto-typing1', {
+    strings: ["SAMUEL", "K .GYASI"],
     typeSpeed: 150,
     backSpeed: 150,
     loop: true
