@@ -451,6 +451,11 @@ nav .fas,nav .fab
     text-decoration: none;
 }
 
+#msg{
+    color: #ff004f;
+    display: block;
+    margin-top: -40px;
+}
 
 /*Responsiveness*/
 
@@ -537,6 +542,10 @@ nav ul .fas,nav ul .fab
 .contact-colleft, .contact-colright
 {
     flex-basis: 100%;
+}
+.topOfPage
+{
+    background: none;
 }
 }
     
