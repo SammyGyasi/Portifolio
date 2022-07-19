@@ -22,7 +22,7 @@ body
 {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(/images/backport.png);
+    background-image: linear-gradient(to right, #ff004f,rgba(0, 0, 0, 0.4)),url(/images/backport.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center ;
@@ -463,7 +463,7 @@ nav .fas,nav .fab
 {
   #header
   {
-    background-image: url(/images/blackport-small.png);
+    background-image: linear-gradient(to right, #ff004f,rgba(0, 0, 0, 0.4)),url(/images/blackport-small.png);
     background-repeat: no-repeat;
   }
   .header-text
