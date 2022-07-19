@@ -21,9 +21,6 @@ function openmenu() {
 }
 
 function closemenu() {
-    sideMenu.style.right = "-200"
+    sideMenu.style.right = "-200px"
 }
 
-
-var layer = document.getElementsByClassName("layer")
-layer.addEventListener("mouseover", function (e) { layer.style.height = '100%'; }, false)
