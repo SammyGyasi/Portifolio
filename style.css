@@ -434,12 +434,12 @@ nav .fas,nav .fab
 
 /*Responsiveness*/
 
-@media only screen and (max-width: 765px)
+@media only screen and (max-width: 600px) 
 {
-  #header
+  /*#header
   {
     background-image: url(/images/blackport-small.png);
-  }
+  }*/
   .header-text
   {
     margin-top: 100%;
@@ -448,17 +448,13 @@ nav .fas,nav .fab
 
   .header-text h1 {font-size: 30px;}
   
-nav .fas
+nav .fas, nav .fab
 {
     display: block;
     font-size: 25px;
 }
 
-nav .fab
-{
-    display: block;
-    font-size: 25px;
-}
+
 nav ul
 {
     background: #ff004f;
@@ -476,7 +472,7 @@ nav ul li
     display: block;
     margin: 25px;
 }
-nav ul .fas
+nav ul .fas,nav ul .fab
 {
     position: absolute;
     top: 25px;
@@ -484,12 +480,29 @@ nav ul .fas
     cursor: pointer;
 }
 
-nav ul .fab
+.subtitle
 {
-    position: absolute;
-    top: 25px;
-    left:25px;
-    cursor: pointer;
+    font-size: 40px;
+}
+
+.about-col-1, .about-col-2
+{
+    flex-basis: 100%;
+}
+
+.about-col-1
+{
+    margin-bottom: 30px;
+}
+
+.about-col-2
+{
+    font-size: 14px;
+}
+
+.tab-links
+{
+    font-size: 16px;
 }
 }
     
