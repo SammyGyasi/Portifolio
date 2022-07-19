@@ -42,3 +42,13 @@ form.addEventListener('submit', e => {
         .catch(error => console.error('Error!', error.message))
 })
 
+
+/*Typing Effect*/
+
+var typed = new Typed('.auto-typing', {
+    strings: ["SAMUEL"],
+    typeSpeed: 150,
+    backSpeed: 150,
+    loop: true
+})
+
