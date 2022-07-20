@@ -461,7 +461,7 @@ nav .fas,nav .fab
 {
   #header
   {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(/images/blackport-small.png);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(images/blackport-small.png);
     background-repeat: no-repeat;
   }
   .header-text
