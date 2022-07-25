@@ -335,7 +335,7 @@ nav ul li a:hover::after
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid #d1a2b1;
     border-radius: 6px;
     padding: 14px 50px;
     text-decoration: none;
@@ -346,12 +346,13 @@ nav ul li a:hover::after
 {
     background: #ff004f;
 }
+/*---------Contact Form------------------------------*/
 
 #contact .row{
     display: flex;
 }
 
-/*---------Contact Form------------------------------*/
+
 .contact-colleft {
     flex-basis: 40%;
 }
