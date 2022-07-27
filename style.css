@@ -272,10 +272,6 @@ nav ul li a:hover::after {
   color: #ff004f;
   text-decoration: none;
   line-height: 60px;
-  background: #fff;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
   font-size: 1.2rem;
   text-align: center;
 }
@@ -301,6 +297,22 @@ nav ul li a:hover::after {
 .btn:hover {
   background: #ff004f;
 }
+
+
+.btnLiveDemo {
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #d1a2b1;
+    border-radius: 6px;
+    padding: 14px 50px;
+    text-decoration: none;
+    color: #080808;
+  }
+  .btnLiveDemo:hover {
+    background: #ff004f;
+  }
+  
 /*---------Contact Form------------------------------*/
 
 #contact .row {
