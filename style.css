@@ -413,12 +413,12 @@ nav .fab {
 
 @media only screen and (max-width: 600px) {
   #header {
-    background: #464242;
+    background: #565656;
     background-repeat: no-repeat;
   }
   .header-text {
-    margin-top: 100%;
-    font-size: 1rem;
+    margin-top: 70%;
+    font-size: 1.1rem;
   }
 
   .header-text h1 {
