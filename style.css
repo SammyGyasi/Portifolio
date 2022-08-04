@@ -80,6 +80,7 @@ nav ul li a:hover::after {
   font-size: 70px;
   font-weight: 900;
   line-height: 95%;
+  width: 500px;
 }
 
 .header-text h1 span {
@@ -421,6 +422,7 @@ nav .fab {
   .header-text {
     margin-top: 70%;
     font-size: 1.1rem;
+    
   }
 
   .header-text h1 {
