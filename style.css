@@ -79,7 +79,7 @@ nav ul li a:hover::after {
   margin-top: 10px;
   font-size: 70px;
   font-weight: 900;
-  line-height: 95%;
+  line-height: 85%;
   width: 500px;
 }
 
@@ -422,11 +422,13 @@ nav .fab {
   .header-text {
     margin-top: 70%;
     font-size: 1.1rem;
+   
     
   }
 
   .header-text h1 {
     font-size: 30px;
+    width: 250px;
   }
 
   nav .fas,
