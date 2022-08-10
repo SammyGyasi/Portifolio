@@ -43,6 +43,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  
  
 }
 
@@ -87,9 +88,9 @@ nav ul li a:hover::after {
   left: 0;
   fill: #ff004f;
   width: 20vmax;
-  z-index: 2;
+  z-index: -1;
   animation: move 10s ease-in-out infinite;
-  transform-origin: 50% 50%;
+  transform-origin: 80% 80%;
 }
 
 @keyframes move {
@@ -471,7 +472,7 @@ nav .fab {
     width: 200px;
     height: 100vh;
     padding-top: 50px;
-    z-index: 2;
+    z-index: 100;
   }
   nav ul li {
     display: block;

@@ -48,7 +48,7 @@ form.addEventListener('submit', e => {
 
 var typed = new Typed('.auto-typing1', {
     strings: ["SAMUEL", "K .GYASI"],
-    typeSpeed: 150,
+    typeSpeed: 100,
     backSpeed: 150,
     loop: true
 })
