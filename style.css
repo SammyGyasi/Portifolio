@@ -487,6 +487,11 @@ nav .fab {
     display: block;
     margin: 25px;
   }
+
+  nav ul li a:hover
+{
+ color: whitesmoke;
+}
   nav ul .fas,
   nav ul .fab {
     position: absolute;
