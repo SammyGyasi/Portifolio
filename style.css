@@ -31,11 +31,13 @@ body {
   background-size: cover;
   background-position: center;
   position: relative;
+ 
 
 }
 
 .container {
   padding: 5px 10%;
+  position: relative;
 }
 
 nav {
@@ -43,6 +45,8 @@ nav {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: relative;
+  z-index: 5;
   
  
 }
@@ -57,9 +61,12 @@ nav ul li a {
   color: #fff;
   text-decoration: none;
   font-size: 18px;
-  position: relative;
-}
 
+}
+nav ul li a:hover
+{
+  color: #ff004f;
+}
 nav ul li a::after {
   content: "";
   width: 0;
@@ -79,7 +86,7 @@ nav ul li a:hover::after {
   margin-top: 15%;
   font-size: 30px;
   position: absolute;
-  z-index: 100;
+  z-index: 0;
 }
 
 .blob {
@@ -560,4 +567,8 @@ nav .fab {
     80%  { transform: scale(1.3) translate(0vw, 0vh) rotate(-20deg); }
     100% { transform: scale(1)   translate(10px, 30px); }
   }
+
+
+  
+
 }

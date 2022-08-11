@@ -15,9 +15,11 @@ function openTab(tabname) {
 }
 
 var sideMenu = document.getElementById("sideMenu")
+var navigation = document.getElementById("navigation")
 
 function openmenu() {
     sideMenu.style.right = "0"
+
 }
 
 function closemenu() {
