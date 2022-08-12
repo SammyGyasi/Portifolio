@@ -559,7 +559,7 @@ nav .fab {
     fill: #ff004f;
     width: 30vmax;
     z-index: 0;
-    animation: move 10s ease-in-out infinite;
+    animation: move 5s ease-in-out infinite;
     transform-origin: 50% 50%;
     margin-left: 20px;
     
@@ -570,12 +570,12 @@ nav .fab {
   @keyframes move {
  from 
  {
-  width: 30vmax;
-  fill: #2a2a2a;
+  width: 18vmax;
+  fill: #2bdd07;
  }
  to
  {
-  width: 55vmax;
+  width: 40vmax;
  } 
   }
 
