@@ -604,7 +604,6 @@ nav img {
  from 
  {
   width: 18vmax;
-  fill: #2bdd07;
  }
  to
  {
@@ -612,7 +611,11 @@ nav img {
  } 
   }
 
-
+.upIcon
+{
+  width: 20px;
+  height: 20px;
+}
   
 
 }
