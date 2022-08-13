@@ -48,6 +48,7 @@ nav {
   flex-wrap: wrap;
   position: relative;
   z-index: 5;
+
   
  
 }
@@ -77,6 +78,7 @@ nav ul li a::after {
   left: 0;
   bottom: -6px;
   transition: 0.5s;
+  
 }
 
 nav ul li a:hover::after {
@@ -464,6 +466,7 @@ nav .fab {
   background-size: 20;
 }
 
+
 /*Responsiveness*/
 
 @media only screen and (max-width: 600px) {
@@ -616,6 +619,9 @@ nav img {
   width: 20px;
   height: 20px;
 }
-  
+
+
+
+
 
 }
