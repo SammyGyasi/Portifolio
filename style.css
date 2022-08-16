@@ -21,18 +21,11 @@ body {
 #header {
   width: 100%;
   height: 100vh;
-  /*background-image: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
-    ),
-    url(images/backport.png);*/
-  background-image: linear-gradient(to right,#000,#ff004f);
+  background-image: linear-gradient(to right,rgba(0, 0, 0,0.8),rgba(255, 0, 79,0.5)),url(images/mobile-cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
- 
 
 }
 
@@ -45,12 +38,19 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 400px;
   flex-wrap: wrap;
-  position: relative;
+  position: fixed;
   z-index: 5;
+  background-image: linear-gradient(to right,rgba(0, 0, 0,0.8),rgba(255, 0, 79,0.5))
 
-  
  
+}
+
+@media(max-width:767px) {
+  nav{
+    background-image: none;
+  }
 }
 
 nav ul li {
