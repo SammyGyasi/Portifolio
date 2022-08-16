@@ -471,7 +471,8 @@ nav .fab {
 
 @media only screen and (max-width: 600px) {
   #header {
-    background: #2a2a2a;
+    background-image: linear-gradient(to right,
+    rgba(0, 0, 0, 0.945), rgba(0, 0, 0, 0.45)),url(images/mobile-cover.jpg);;
     background-repeat: no-repeat;
   }
   .header-text {
